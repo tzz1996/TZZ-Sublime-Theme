@@ -52,3 +52,7 @@ testem.log
 *.DS_Store
 Thumbs.db
 Icon?
+
+# Ignore the personal Sublime Text project file
+*.sublime-project
+*.sublime-workspace

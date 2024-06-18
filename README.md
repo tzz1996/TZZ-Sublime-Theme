@@ -4,8 +4,8 @@
     </a>
 </div>
 <h1 align="center">Dark Castle Theme for     
-    <a href="https://example.com" target="_blank">
-    [Example Platform]
+    <a href="https://www.sublimetext.com/" target="_blank">
+    Sublime Text
     </a>
 </h1>
 <p align="center">

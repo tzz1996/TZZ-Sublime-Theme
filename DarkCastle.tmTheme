@@ -284,11 +284,12 @@
 				<string>Markdown Emphasis</string>
 				<key>scope</key>
 				<string>markup.bold.markdown, markup.italic.markdown, markup.bold.italic.markdown,
-					markup.strikethrough.markdown</string>
+					markup.strikethrough.markdown, text.html.markdown meta.paragraph.markdown
+					markup.strikethrough.markdown-gfm</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#EF6B73</string>
+					<string>#4DBCED</string>
 				</dict>
 			</dict>
 			<dict>
@@ -299,7 +300,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFD580</string>
+					<string>#9354FF</string>
 				</dict>
 			</dict>
 			<dict>
@@ -311,7 +312,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#4DBCED</string>
+					<string>#08D220</string>
 				</dict>
 			</dict>
 			<dict>
@@ -322,7 +323,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#4DBCED</string>
+					<string>#AA1B86</string>
 				</dict>
 			</dict>
 			<dict>

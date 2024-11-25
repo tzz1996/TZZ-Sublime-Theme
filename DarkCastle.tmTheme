@@ -16,11 +16,11 @@
 					<key>foreground</key>
 					<string>#FFD580</string>
 					<key>selection</key>
-					<string>#292929</string>
+					<string>#9D599D40</string>
 					<key>lineHighlight</key>
 					<string>#292929</string>
 					<key>selectionBorder</key>
-					<string>#9C9C9C</string>
+					<string>#9D599D</string>
 					<key>invisibles</key>
 					<string>#575757</string>
 					<key>guide</key>

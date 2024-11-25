@@ -559,7 +559,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#6A0DAD</string>
+					<string>#AA1B86</string>
 				</dict>
 			</dict>
 			<dict>
@@ -568,7 +568,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#004D73</string>
+					<string>#6A0DAD</string>
 				</dict>
 			</dict>
 			<dict>
@@ -577,7 +577,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#6B3E26</string>
+					<string>#004D73</string>
 				</dict>
 			</dict>
 			<dict>
@@ -586,7 +586,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#46244C</string>
+					<string>#6B3E26</string>
 				</dict>
 			</dict>
 			<dict>
@@ -595,12 +595,21 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#002B36</string>
+					<string>#46244C</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>scope</key>
 				<string>region.indent.6</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#002B36</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>region.indent.7</string>
 				<key>settings</key>
 				<dict>
 					<key>background</key>

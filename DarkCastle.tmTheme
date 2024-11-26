@@ -602,6 +602,28 @@
 				</dict>
 			</dict>
 			<dict>
+				<key>name</key>
+				<string>Search Results Lines</string>
+				<key>scope</key>
+				<string>entity.name.filename.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#AA1B86</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Search Results Line Numbers</string>
+				<key>scope</key>
+				<string>constant.numeric.line-number.find-in-files - match</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#455682</string>
+				</dict>
+			</dict>
+			<dict>
 				<key>scope</key>
 				<string>region.indent.0</string>
 				<key>settings</key>

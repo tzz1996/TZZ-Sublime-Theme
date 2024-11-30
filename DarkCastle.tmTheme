@@ -629,7 +629,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#8B0000</string>
+					<string>#8B000090</string>
 				</dict>
 			</dict>
 			<dict>
@@ -638,7 +638,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#AA1B86</string>
+					<string>#AA1B8690</string>
 				</dict>
 			</dict>
 			<dict>
@@ -647,7 +647,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#6A0DAD</string>
+					<string>#6A0DAD90</string>
 				</dict>
 			</dict>
 			<dict>
@@ -656,7 +656,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#004D73</string>
+					<string>#004D7390</string>
 				</dict>
 			</dict>
 			<dict>
@@ -665,7 +665,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#6B3E26</string>
+					<string>#6B3E2690</string>
 				</dict>
 			</dict>
 			<dict>
@@ -674,7 +674,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#46244C</string>
+					<string>#46244C90</string>
 				</dict>
 			</dict>
 			<dict>
@@ -683,16 +683,70 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#002B36</string>
+					<string>#002B3690</string>
 				</dict>
 			</dict>
 			<dict>
 				<key>scope</key>
-				<string>region.indent.7</string>
+				<string>rainbow.indent.0</string>
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#550000</string>
+					<string>#FF573390</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>rainbow.indent.1</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#FF9F1C90</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>rainbow.indent.2</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#FFD70090</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>rainbow.indent.3</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#39FF1490</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>rainbow.indent.4</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#00FFFF90</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>rainbow.indent.5</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#4B008290</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>rainbow.indent.6</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#8A2BE290</string>
 				</dict>
 			</dict>
 		</array>

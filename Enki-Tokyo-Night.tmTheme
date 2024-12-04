@@ -1323,6 +1323,28 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>name</key>
+			<string>Search Results Lines</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa300</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Search Results Line Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#393939FF</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>scope</key>
 			<string>rainbow.indent.0</string>
 			<key>settings</key>

@@ -799,6 +799,16 @@
             "foreground": "var(green)"
         },
         {
+            "name": "Search Results Lines",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "#FF435B"
+        },
+        {
+            "name": "Search Results Line Numbers",
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "#393939FF"
+        },
+        {
             "name": "rainbow0",
             "scope": "rainbow.indent.0",
             "background": "#FF5D7150"

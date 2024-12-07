@@ -507,6 +507,52 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>name</key>
+			<string>Diff Header</string>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66D9EF</string> <!-- 蓝色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 加粗 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Filename</string>
+			<key>scope</key>
+			<string>entity.name.filename.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string> <!-- 绿色 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Search Results Lines</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DBCED</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Search Results Line Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#393939FF</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>scope</key>
 			<string>rainbow.indent.0</string>
 			<key>settings</key>

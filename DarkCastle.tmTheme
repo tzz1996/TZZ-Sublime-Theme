@@ -30,9 +30,15 @@
 					<key>gutter_foreground_highlight</key>
 					<string>#FFD580</string>
 					<key>selection</key>
+					<string>#0D850130</string>
+					<key>selectionBorder</key>
+					<string>#0D8501</string>
+					<!--
+					<key>selection</key>
 					<string>#FF435B40</string>
 					<key>selectionBorder</key>
 					<string>#FF435B</string>
+					-->
 				</dict>
 			</dict>
 			<dict>

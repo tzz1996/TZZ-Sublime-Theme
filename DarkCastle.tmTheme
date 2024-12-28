@@ -29,6 +29,8 @@
 					<string>#FF8040</string>
 					<key>gutter_foreground_highlight</key>
 					<string>#FFD580</string>
+					<key>block_caret</key>
+					<string>#FFD580</string>
 					<key>selection</key>
 					<string>#0D850130</string>
 					<key>selectionBorder</key>

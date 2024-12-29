@@ -33,15 +33,22 @@
 					<key>block_caret</key>
 					<string>#FFD580</string>
 					<!--选中内容背景高亮-->
+					<!-- 绿色 -->
 					<key>selection</key>
 					<string>#0D850130</string>
 					<key>selectionBorder</key>
 					<string>#0D8501</string>
-					<!--
+					<!-- 红色
 					<key>selection</key>
 					<string>#FF435B40</string>
 					<key>selectionBorder</key>
 					<string>#FF435B</string>
+					-->
+					<!-- 粉色
+					<key>selection</key>
+					<string>#DB709330</string>
+					<key>selectionBorder</key>
+					<string>#DB7093</string>
 					-->
 				</dict>
 			</dict>

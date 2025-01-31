@@ -52,6 +52,20 @@
 					-->
 				</dict>
 			</dict>
+			<!--WordHighlight插件高亮-->
+			<dict>
+				<key>name</key>
+				<string>WordHighlight's selected highlight</string>
+				<key>scope</key>
+				<string>WordHighlight-define</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF435B</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
 			<!--一级标题高亮-->
 			<dict>
 				<key>name</key>

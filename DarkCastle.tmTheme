@@ -132,6 +132,17 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>third Custom Highlight Block Content</string>
+				<key>scope</key>
+				<string>string.third.customhighlight</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#808080</string> <!-- Replace with your desired color -->
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
 				<string>Built-in Function</string>
 				<key>scope</key>
 				<string>support.function</string>

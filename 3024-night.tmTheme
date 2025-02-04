@@ -50,10 +50,100 @@
 				<string>#5c5855</string>
 				<key>lineHighlight</key>
 				<string>#3a3432</string>
+				<!-- 红宝石配色 -->
 				<key>selection</key>
-				<string>#FF435B40</string>
+				<string>#E0115F40</string>
 				<key>selectionBorder</key>
+				<string>#E0115F</string>
+			</dict>
+		</dict>
+		<!--WordHighlight插件高亮-->
+		<dict>
+			<key>name</key>
+			<string>WordHighlight's selected highlight</string>
+			<key>scope</key>
+			<string>WordHighlight-define</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
 				<string>#FF435B</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<!--一级标题高亮-->
+		<dict>
+			<key>name</key>
+			<string>first Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.first.block.begin.customhighlight, keyword.first.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1493</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>first Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.first.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1493</string> <!-- Replace with your desired color -->
+			</dict>
+		</dict>
+		<!--二级标题高亮-->
+		<dict>
+			<key>name</key>
+			<string>second Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.second.block.begin.customhighlight, keyword.second.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6347</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>second Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.second.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6347</string> <!-- Replace with your desired color -->
+			</dict>
+		</dict>
+		<!--三级标题高亮-->
+		<dict>
+			<key>name</key>
+			<string>third Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.third.block.begin.customhighlight, keyword.third.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>third Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.third.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string> <!-- Replace with your desired color -->
 			</dict>
 		</dict>
 		<dict>

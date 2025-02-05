@@ -30,8 +30,14 @@
 				<string>#49483E</string>
 				<key>lineHighlight</key>
 				<string>#363636</string>
+				<!--
 				<key>selection</key>
 				<string>#49483E</string>
+				-->
+				<key>selection</key>
+				<string>#37A8ED30</string>
+				<key>selectionBorder</key>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>

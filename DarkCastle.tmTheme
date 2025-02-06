@@ -650,6 +650,7 @@
 					<string>#4DBCED</string>
 				</dict>
 			</dict>
+			<!--git高亮-->
 			<dict>
 				<key>name</key>
 				<string>Git Inserted</string>
@@ -683,6 +684,7 @@
 					<string>#FD971F</string>
 				</dict>
 			</dict>
+			<!--文件差异高亮-->
 			<dict>
 				<key>name</key>
 				<string>Diff Header</string>
@@ -707,6 +709,7 @@
 					<string>#A6E22E</string> <!-- 绿色 -->
 				</dict>
 			</dict>
+			<!--搜索文件高亮-->
 			<dict>
 				<key>name</key>
 				<string>Search Results Lines</string>

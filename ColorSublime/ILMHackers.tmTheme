@@ -630,6 +630,102 @@
 				<string>#808080</string> <!-- 替换为您想要的颜色 -->
 			</dict>
 		</dict>
+		<!--git高亮-->
+		<dict>
+			<key>name</key>
+			<string>Git Inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+			<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD971F</string>
+			</dict>
+		</dict>
+		<!--文件差异高亮-->
+		<dict>
+			<key>name</key>
+			<string>Diff Header</string>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66D9EF</string> <!-- 蓝色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 加粗 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Filename</string>
+			<key>scope</key>
+			<string>entity.name.filename.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string> <!-- 绿色 -->
+			</dict>
+		</dict>
+		<!--搜索文件高亮-->
+		<dict>
+			<key>name</key>
+			<string>Search Results Lines</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DBCED</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Search Results Line Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#393939FF</string>
+			</dict>
+		</dict>
+		<!--WordHighlight插件高亮-->
+		<dict>
+			<key>name</key>
+			<string>WordHighlight's selected highlight</string>
+			<key>scope</key>
+			<string>WordHighlight-define</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF435B</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>d6c6e637-bcf4-4dfb-bae7-efd53bd9a35c</string>

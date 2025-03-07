@@ -31,7 +31,166 @@
 				<key>lineHighlight</key>
 				<string>#30343B</string>
 				<key>selection</key>
-				<string>#30343B</string>
+				<string>#DB709330</string>
+				<key>selectionBorder</key>
+				<string>#DB7093</string>
+			</dict>
+		</dict>
+		<!--git高亮-->
+		<dict>
+			<key>name</key>
+			<string>Git Inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+			<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Git Changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FD971F</string>
+			</dict>
+		</dict>
+		<!--文件差异高亮-->
+		<dict>
+			<key>name</key>
+			<string>Diff Header</string>
+			<key>scope</key>
+			<string>meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66D9EF</string> <!-- 蓝色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 加粗 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Filename</string>
+			<key>scope</key>
+			<string>entity.name.filename.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string> <!-- 绿色 -->
+			</dict>
+		</dict>
+		<!--搜索文件高亮-->
+		<dict>
+			<key>name</key>
+			<string>Search Results Lines</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4DBCED</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Search Results Line Numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#393939FF</string>
+			</dict>
+		</dict>
+		<!--一级标题高亮-->
+		<dict>
+			<key>name</key>
+			<string>first Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.first.block.begin.customhighlight, keyword.first.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1493</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>first Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.first.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1493</string> <!-- Replace with your desired color -->
+			</dict>
+		</dict>
+		<!--二级标题高亮-->
+		<dict>
+			<key>name</key>
+			<string>second Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.second.block.begin.customhighlight, keyword.second.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6347</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>second Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.second.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6347</string> <!-- Replace with your desired color -->
+			</dict>
+		</dict>
+		<!--三级标题高亮-->
+		<dict>
+			<key>name</key>
+			<string>third Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.third.block.begin.customhighlight, keyword.third.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>third Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.third.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string> <!-- Replace with your desired color -->
 			</dict>
 		</dict>
 		<!-- Comment Scope -->

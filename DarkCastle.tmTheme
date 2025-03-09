@@ -50,7 +50,31 @@
 					<key>selectionBorder</key>
 					<string>#DB7093</string>
 					-->
-				</dict>
+					<!-- 标准海洋蓝
+					<key>selection</key>
+					<string>#00699430</string>
+					<key>selectionBorder</key>
+					<string>#006994</string>
+					-->
+					<!-- 浅海洋蓝
+					<key>selection</key>
+					<string>#00AFF030</string>
+					<key>selectionBorder</key>
+					<string>#00AFF0</string>
+					-->
+					<!-- 深海洋蓝
+					<key>selection</key>
+					<string>#002F6C30</string>
+					<key>selectionBorder</key>
+					<string>#002F6C</string>
+					-->
+					<!-- 中等海洋蓝
+					<key>selection</key>
+					<string>#008B8B30</string>
+					<key>selectionBorder</key>
+					<string>#008B8B</string>
+					</dict>
+					-->
 			</dict>
 			<!--WordHighlight插件高亮-->
 			<dict>

@@ -3,11 +3,11 @@
 <!--
 
 	Name:		Adventure Time
-    Author:		Kyle Wilcox
-    License:	Public Domain Mark 1.0
-    URL:		https://github.com/wilcoxky/Adventure_Time.tmTheme
+	Author:		Kyle Wilcox
+	License:	Public Domain Mark 1.0
+	URL:		https://github.com/wilcoxky/Adventure_Time.tmTheme
 
-    Ported sublime theme based off of (https://github.com/philpl/Adventurous-Syntax)
+	Ported sublime theme based off of (https://github.com/philpl/Adventurous-Syntax)
 
 -->
 
@@ -30,10 +30,35 @@
 				<string>#373B41</string>
 				<key>lineHighlight</key>
 				<string>#30343B</string>
+				<!-- 粉色
 				<key>selection</key>
 				<string>#DB709330</string>
 				<key>selectionBorder</key>
 				<string>#DB7093</string>
+				-->
+				<!-- 标准海洋蓝
+				<key>selection</key>
+				<string>#00699430</string>
+				<key>selectionBorder</key>
+				<string>#006994</string>
+				-->
+				<!-- 浅海洋蓝
+				<key>selection</key>
+				<string>#00AFF030</string>
+				<key>selectionBorder</key>
+				<string>#00AFF0</string>
+				-->
+				<!-- 深海洋蓝
+				<key>selection</key>
+				<string>#002F6C30</string>
+				<key>selectionBorder</key>
+				<string>#002F6C</string>
+				-->
+				<!-- 中等海洋蓝 -->
+				<key>selection</key>
+				<string>#008B8B30</string>
+				<key>selectionBorder</key>
+				<string>#008B8B</string>
 			</dict>
 		</dict>
 		<!--git高亮-->
@@ -513,8 +538,8 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-			    <key>fontStyle</key>
-    			<string></string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#f25a55</string>
 			</dict>
@@ -526,8 +551,8 @@
 			<string>entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
-			    <key>fontStyle</key>
-    			<string></string>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#f25a55</string>
 			</dict>

@@ -29,11 +29,109 @@
 				<string>#000</string>
 				<key>findHighlight</key>
 				<string>#ffff00</string>
-
-
-
 			</dict>
 		</dict>
+		<!-- 一级标题高亮 -->
+		<dict>
+			<key>name</key>
+			<string>first Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.first.block.begin.customhighlight, keyword.first.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1493</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>first Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.first.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF1493</string> <!-- 替换为您想要的颜色 -->
+			</dict>
+		</dict>
+		<!-- 二级标题高亮 -->
+		<dict>
+			<key>name</key>
+			<string>second Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.second.block.begin.customhighlight, keyword.second.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6347</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>second Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.second.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF6347</string> <!-- 替换为您想要的颜色 -->
+			</dict>
+		</dict>
+		<!-- 三级标题高亮 -->
+		<dict>
+			<key>name</key>
+			<string>third Custom Highlight Block Begin/End</string>
+			<key>scope</key>
+			<string>keyword.third.block.begin.customhighlight, keyword.third.block.end.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string> <!-- 替换为您想要的颜色 -->
+				<key>fontStyle</key>
+				<string>bold</string> <!-- 可选：使分隔符加粗显示 -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>third Custom Highlight Block Content</string>
+			<key>scope</key>
+			<string>string.third.customhighlight</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#808080</string> <!-- 替换为您想要的颜色 -->
+			</dict>
+		</dict>
+
+		<!--搜索文件高亮-->
+			<dict>
+				<key>name</key>
+				<string>Search Results Lines</string>
+				<key>scope</key>
+				<string>entity.name.filename.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#4DBCED</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Search Results Line Numbers</string>
+				<key>scope</key>
+				<string>constant.numeric.line-number.find-in-files - match</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#393939FF</string>
+				</dict>
+			</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>Comment</string>

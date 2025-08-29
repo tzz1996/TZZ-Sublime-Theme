@@ -21,7 +21,10 @@
         "pink": "#fca7ea",
         "purple": "#c099ff",
         "red": "#ff757f",
-        "yellow": "#FFDB8E"
+        "yellow": "#FFDB8E",
+        "hl1": "#FF1493",
+        "hl2": "#FF6347",
+        "hl3": "#808080"
     },
     "globals": {
         "accent": "var(accent)",
@@ -842,6 +845,43 @@
             "name": "rainbow0",
             "scope": "rainbow.indent.6",
             "background": "#6189bb50"
+        },
+        // ========== 自定义高亮块 ==========
+        // 一级标题高亮
+        {
+            "name": "Custom Highlight Level 1 - Begin/End",
+            "scope": "keyword.first.block.begin.customhighlight, keyword.first.block.end.customhighlight",
+            "foreground": "var(hl1)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Custom Highlight Level 1 - Content",
+            "scope": "string.first.customhighlight",
+            "foreground": "var(hl1)"
+        },
+        // 二级标题高亮
+        {
+            "name": "Custom Highlight Level 2 - Begin/End",
+            "scope": "keyword.second.block.begin.customhighlight, keyword.second.block.end.customhighlight",
+            "foreground": "var(hl2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Custom Highlight Level 2 - Content",
+            "scope": "string.second.customhighlight",
+            "foreground": "var(hl2)"
+        },
+        // 三级标题高亮
+        {
+            "name": "Custom Highlight Level 3 - Begin/End",
+            "scope": "keyword.third.block.begin.customhighlight, keyword.third.block.end.customhighlight",
+            "foreground": "var(hl3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Custom Highlight Level 3 - Content",
+            "scope": "string.third.customhighlight",
+            "foreground": "var(hl3)"
         }
     ]
 }

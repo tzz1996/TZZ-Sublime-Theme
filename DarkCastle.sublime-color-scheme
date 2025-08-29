@@ -1,0 +1,521 @@
+{
+    "name": "Dark Castle",
+    "author": "Scott Grivner",
+    "variables": {
+        "bg": "#000000",
+        "fg": "#FFD580",
+        "caret": "#FF8040",
+        "line_highlight": "#292929",
+        "invisibles": "#575757",
+        "gutter_fg": "#FF8040",
+        "gutter_fg_highlight": "#FFD580",
+        "guide": "#9C9C9C",
+        "active_guide": "#FFD580",
+        "stack_guide": "#9C9C9C",
+        // ========== WordHighlight 插件颜色 ==========
+        "wh_define": "#FF435B",
+        "wh_occurrence": "#FFD580",
+        "wh_read": "#4DBCED",
+        "wh_write": "#AA1B86",
+        "wh_current": "#FFFFFF",
+        // ========== 选中内容背景高亮 ==========
+        "selection": "#0D850130",
+        "selection_border": "#0D8501",
+        // 红色
+        "selection_red": "FF435B40",
+        "selection_border_red": "#FF435B",
+        // 粉色
+        "selection_pink": "DB709330",
+        "selection_border_pink": "#DB7093",
+        // 标准海洋蓝
+        "selection_blue1": "00699430",
+        "selection_border_blue1": "#006994",
+        // 浅海洋蓝
+        "selection_blue1": "00AFF030",
+        "selection_border_blue2": "#00AFF0",
+        // 深海洋蓝
+        "selection_blue1": "002F6C30",
+        "selection_border_blue3": "#002F6C",
+        // 中等海洋蓝
+        "selection_blue1": "008B8B30",
+        "selection_border_blue4": "#008B8B",
+        // 块状光标高亮
+        "block_caret": "#FFD580",
+        "comment": "#0D8501",
+        "string": "#FF000F",
+        "number": "#9354FF",
+        "keyword": "#AA1B86",
+        "builtin_const": "#AA1B86",
+        "builtin_func": "#AA1B86",
+        "builtin_type": "#4DBCED",
+        "func": "#FF5503",
+        "func_arg": "#BAE67E",
+        "class": "#FF5503",
+        "variable": "#08D220",
+        "variable_param": "#BAE67E",
+        "support_var": "#2D449B",
+        "namespace": "#2D449B",
+        "meta_func": "#FFD580",
+        "attr_name": "#FF8040",
+        "punctuation": "#007B88",
+        "punctuation_term": "#FFFFFF",
+        "punctuation_comment": "#0D8501",
+        "punctuation_tag": "#007B88",
+        "json_1": "#4DBCED",
+        "json_2": "#FF000F",
+        "json_3": "#FF8040",
+        "error": "#EF6B73",
+        "accent": "#FF8040",
+        "url": "#4164FF",
+        "preprocessor": "#AA1B86",
+        "storage": "#AA1B86",
+        "yaml_key": "#4DBCED",
+        "git_inserted": "#A6E22E",
+        "git_deleted": "#F92672",
+        "git_changed": "#FD971F",
+        "diff_header": "#66D9EF",
+        "diff_filename": "#A6E22E",
+        "search_filename": "#4DBCED",
+        "search_line_num": "#393939FF",
+        "indent_0": "#8B000080",
+        "indent_1": "#AA1B8680",
+        "indent_2": "#6A0DAD80",
+        "indent_3": "#004D7380",
+        "indent_4": "#6B3E2680",
+        "indent_5": "#46244C80",
+        "indent_6": "#002B3680",
+        "rainbow_0": "#FF573340",
+        "rainbow_1": "#FF9F1C40",
+        "rainbow_2": "#FFD70040",
+        "rainbow_3": "#39FF1440",
+        "rainbow_4": "#00FFFF40",
+        "rainbow_5": "#4B008240",
+        "rainbow_6": "#8A2BE240",
+        "hl1": "#FF1493",
+        "hl2": "#FF6347",
+        "hl3": "#808080",
+        "md_heading_1": "#BAE67E",
+        "md_heading_2_6": "#FF000F",
+        "md_separator": "#2D449B",
+        "md_link_text": "#4164FF",
+        "md_emphasis": "#4DBCED",
+        "md_lang_tag": "#9354FF",
+        "md_inline_code": "#08D220",
+        "md_blockquote": "#AA1B86",
+        "md_link_desc": "#FF8040",
+        "md_link_desc_alt": "#007B88"
+    },
+
+    "globals": {
+        "background": "var(bg)",
+        "foreground": "var(fg)",
+        "caret": "var(caret)",
+        "line_highlight": "var(line_highlight)",
+        "invisibles": "var(invisibles)",
+        "gutter_foreground": "var(gutter_fg)",
+        "gutter_foreground_highlight": "var(gutter_fg_highlight)",
+        "block_caret": "var(block_caret)",
+        "selection": "var(selection)",
+        "selection_border": "var(selection_border)"
+    },
+
+    "rules": [
+        // ========== 自定义高亮块 ==========
+        // 一级标题高亮
+        {
+            "name": "Custom Highlight Level 1 - Begin/End",
+            "scope": "keyword.first.block.begin.customhighlight, keyword.first.block.end.customhighlight",
+            "foreground": "var(hl1)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Custom Highlight Level 1 - Content",
+            "scope": "string.first.customhighlight",
+            "foreground": "var(hl1)"
+        },
+        // 二级标题高亮
+        {
+            "name": "Custom Highlight Level 2 - Begin/End",
+            "scope": "keyword.second.block.begin.customhighlight, keyword.second.block.end.customhighlight",
+            "foreground": "var(hl2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Custom Highlight Level 2 - Content",
+            "scope": "string.second.customhighlight",
+            "foreground": "var(hl2)"
+        },
+        // 三级标题高亮
+        {
+            "name": "Custom Highlight Level 3 - Begin/End",
+            "scope": "keyword.third.block.begin.customhighlight, keyword.third.block.end.customhighlight",
+            "foreground": "var(hl3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Custom Highlight Level 3 - Content",
+            "scope": "string.third.customhighlight",
+            "foreground": "var(hl3)"
+        },
+
+        // ========== WordHighlight - 当前光标下的单词 ==========
+        {
+            // 当前光标所在的变量/函数定义，通常用红色粗体突出
+            "name": "WordHighlight - Current Word (Define)",
+            "scope": "WordHighlight-define",
+            "foreground": "var(wh_define)",
+            "font_style": "bold"
+        },
+        {
+            // 其他出现位置
+            "name": "WordHighlight - Occurrence (Read/Write)",
+            "scope": "WordHighlight-occurrence",
+            "foreground": "var(wh_occurrence)",
+            "font_style": "italic"
+        },
+        {
+            // 只读引用（如变量使用）
+            "name": "WordHighlight - Read Access",
+            "scope": "WordHighlight-read",
+            "foreground": "var(wh_read)"
+        },
+        {
+            // 写操作（如赋值）
+            "name": "WordHighlight - Write Access",
+            "scope": "WordHighlight-write",
+            "foreground": "var(wh_write)",
+            "font_style": "bold"
+        },
+        {
+            // 在当前行内的匹配项（即使不在光标下）
+            "name": "WordHighlight - Current Line Match",
+            "scope": "WordHighlight-current",
+            "foreground": "var(wh_current)",
+            "font_style": "bold underline"
+        },
+
+        // ========== 基础语法 ==========
+        {
+            "name": "Built-in Function",
+            "scope": "support.function",
+            "foreground": "var(builtin_func)"
+        },
+        {
+            "name": "Built-in Type",
+            "scope": "support.type",
+            "foreground": "var(builtin_type)"
+        },
+        {
+            "name": "Function Argument",
+            "scope": "variable.parameter",
+            "foreground": "var(func_arg)"
+        },
+        {
+            "name": "Library Function",
+            "scope": "support.function",
+            "foreground": "var(func)"
+        },
+        {
+            "name": "Library Constant",
+            "scope": "support.constant",
+            "foreground": "var(builtin_const)"
+        },
+        {
+            "name": "Library Variable",
+            "scope": "support.variable",
+            "foreground": "var(support_var)"
+        },
+        {
+            "name": "Namespace",
+            "scope": "entity.name.namespace",
+            "foreground": "var(support_var)"
+        },
+        {
+            "name": "Meta Function",
+            "scope": "meta.function, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+            "foreground": "var(meta_func)"
+        },
+        {
+            "name": "CSS Class/ID",
+            "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+            "foreground": "var(attr_name)"
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(comment)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(string)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(number)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "foreground": "var(keyword)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(builtin_const)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(attr_name)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(variable)"
+        },
+        {
+            "name": "Function",
+            "scope": "entity.name.function",
+            "foreground": "var(func)"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class",
+            "foreground": "var(class)"
+        },
+        {
+            "name": "Tag",
+            "scope": "entity.name.tag",
+            "foreground": "var(builtin_type)"
+        },
+        {
+            "name": "Attribute name",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(attr_name)"
+        },
+        {
+            "name": "Punctuation Terminator",
+            "scope": "punctuation.terminator",
+            "foreground": "var(punctuation_term)"
+        },
+        {
+            "name": "Punctuation",
+            "scope": "punctuation.definition.tag, punctuation.definition.variable, punctuation.definition.entity, punctuation.definition.list_item",
+            "foreground": "var(punctuation)"
+        },
+        {
+            "name": "Punctuation Comment",
+            "scope": "punctuation.definition.comment",
+            "foreground": "var(punctuation_comment)"
+        },
+        {
+            "name": "Punctuation Tag/String",
+            "scope": "punctuation.definition.string",
+            "foreground": "var(punctuation_tag)"
+        },
+        {
+            "name": "JSON Values - 1 deep",
+            "scope": "source.json meta.mapping.key string - punctuation",
+            "foreground": "var(json_1)"
+        },
+        {
+            "name": "JSON Values - 2 deep",
+            "scope": "source.json meta.mapping meta.mapping.key string - punctuation",
+            "foreground": "var(json_2)"
+        },
+        {
+            "name": "JSON Values - 3 deep",
+            "scope": "source.json meta.mapping meta.mapping meta.mapping meta.mapping meta.mapping.key string - punctuation",
+            "foreground": "var(json_3)"
+        },
+        {
+            "name": "Error",
+            "scope": "invalid",
+            "foreground": "var(error)"
+        },
+        {
+            "name": "Accent (Operator)",
+            "scope": "keyword.operator",
+            "foreground": "var(accent)"
+        },
+        {
+            "name": "URL",
+            "scope": "string.other.link",
+            "foreground": "var(url)"
+        },
+        {
+            "name": "Preprocessor",
+            "scope": "keyword.control.import",
+            "foreground": "var(preprocessor)"
+        },
+        {
+            "name": "PHP Embedded Tags",
+            "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+            "foreground": "var(punctuation)"
+        },
+        {
+            "name": "Variable - Language",
+            "scope": "storage.modifier, storage.type",
+            "foreground": "var(storage)"
+        },
+        {
+            "name": "YAML Key",
+            "scope": "meta.mapping.key string",
+            "foreground": "var(yaml_key)"
+        },
+
+        // ========== Git 高亮 ==========
+        {
+            "name": "Git Inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(git_inserted)"
+        },
+        {
+            "name": "Git Deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(git_deleted)"
+        },
+        {
+            "name": "Git Changed",
+            "scope": "markup.changed",
+            "foreground": "var(git_changed)"
+        },
+        // ========== 文件差异高亮 ==========
+        {
+            "name": "Diff Header",
+            "scope": "meta.diff.header",
+            "foreground": "var(diff_header)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Diff Filename",
+            "scope": "entity.name.filename.diff",
+            "foreground": "var(diff_filename)"
+        },
+
+        // ========== 搜索结果 ==========
+        {
+            "name": "Search Results Filename",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(search_filename)"
+        },
+        {
+            "name": "Search Results Line Numbers",
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "var(search_line_num)"
+        },
+
+        // ========== 缩进高亮 ==========
+        {
+            "scope": "region.indent.0",
+            "background": "var(indent_0)"
+        },
+        {
+            "scope": "region.indent.1",
+            "background": "var(indent_1)"
+        },
+        {
+            "scope": "region.indent.2",
+            "background": "var(indent_2)"
+        },
+        {
+            "scope": "region.indent.3",
+            "background": "var(indent_3)"
+        },
+        {
+            "scope": "region.indent.4",
+            "background": "var(indent_4)"
+        },
+        {
+            "scope": "region.indent.5",
+            "background": "var(indent_5)"
+        },
+        {
+            "scope": "region.indent.6",
+            "background": "var(indent_6)"
+        },
+        // ========== 彩虹缩进高亮 ==========
+        {
+            "scope": "rainbow.indent.0",
+            "background": "var(rainbow_0)"
+        },
+        {
+            "scope": "rainbow.indent.1",
+            "background": "var(rainbow_1)"
+        },
+        {
+            "scope": "rainbow.indent.2",
+            "background": "var(rainbow_2)"
+        },
+        {
+            "scope": "rainbow.indent.3",
+            "background": "var(rainbow_3)"
+        },
+        {
+            "scope": "rainbow.indent.4",
+            "background": "var(rainbow_4)"
+        },
+        {
+            "scope": "rainbow.indent.5",
+            "background": "var(rainbow_5)"
+        },
+        {
+            "scope": "rainbow.indent.6",
+            "background": "var(rainbow_6)"
+        },
+
+        // ========== Markdown ==========
+        {
+            "name": "Markdown Heading 1",
+            "scope": "markup.heading.1.markdown",
+            "foreground": "var(md_heading_1)"
+        },
+        {
+            "name": "Markdown Headings 2-6",
+            "scope": "markup.heading.2.markdown, markup.heading.3.markdown, markup.heading.4.markdown, markup.heading.5.markdown, markup.heading.6.markdown",
+            "foreground": "var(md_heading_2_6)"
+        },
+        {
+            "name": "Markdown Separator",
+            "scope": "meta.separator",
+            "foreground": "var(md_separator)"
+        },
+        {
+            "name": "Markdown Link Text",
+            "scope": "markup.underline.link.markdown",
+            "foreground": "var(md_link_text)"
+        },
+        {
+            "name": "Markdown Emphasis",
+            "scope": "markup.bold.markdown, markup.italic.markdown, markup.bold.italic.markdown, markup.strikethrough.markdown, text.html.markdown meta.paragraph.markdown markup.strikethrough.markdown-gfm",
+            "foreground": "var(md_emphasis)"
+        },
+        {
+            "name": "Markdown Language Tag",
+            "scope": "constant.other.language-name.markdown",
+            "foreground": "var(md_lang_tag)"
+        },
+        {
+            "name": "Markdown Inline Code",
+            "scope": "markup.inline.raw, markup.inline.raw.string, markup.inline.raw.markdown, markup.raw.block, markup.raw.inline",
+            "foreground": "var(md_inline_code)"
+        },
+        {
+            "name": "Markdown Blockquote",
+            "scope": "markup.quote, markup.quote.markdown",
+            "foreground": "var(md_blockquote)"
+        },
+        {
+            "name": "Markdown Link Description",
+            "scope": "text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown markup.bold.markdown punctuation.definition.bold.begin.markdown, markup.list.numbered.bullet.markdown",
+            "foreground": "var(md_link_desc_alt)"
+        },
+        {
+            "name": "Markdown Link Description (Inline)",
+            "scope": "text.html.markdown meta.paragraph.markdown meta.image.inline.description.markdown, text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.description.markdown",
+            "foreground": "var(md_link_desc)"
+        }
+    ]
+}

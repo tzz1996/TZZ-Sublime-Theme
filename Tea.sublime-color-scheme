@@ -1,0 +1,180 @@
+{
+    "name": "WaterGear",
+    "author": "Converted from tmTheme",
+    "variables": {},
+    "globals": {
+        "background": "#081606",
+        "caret": "#8D9018C0",
+        "foreground": "#8D9018",
+        "invisibles": "#3B3A32",
+        "line_highlight": "#151F0B",
+        "selection": "#1C290E",
+        "find_highlight": "#A9D55A",
+        "find_highlight_foreground": "#161F08",
+        "selection_border": "#93B85F",
+        "guide": "#9D550FB0",
+        "active_guide": "#9D550FB0",
+        "brackets_foreground": "#FF9956",
+        "bracket_contents_foreground": "#FF9956",
+        "tags_options": "stippled_underline",
+        "brackets_options": "foreground",
+        "bracket_contents_options": "foreground underline"
+    },
+    "rules": [
+        {
+            "scope": "comment",
+            "foreground": "#2D3D10"
+        },
+        {
+            "scope": "string",
+            "foreground": "#D69D29"
+        },
+        {
+            "scope": "constant.numeric",
+            "foreground": "#83CC52"
+        },
+        {
+            "scope": "constant.language",
+            "foreground": "#E0AB5C"
+        },
+        {
+            "scope": "constant.character, constant.other",
+            "foreground": "#B2B81A"
+        },
+        {
+            "scope": "variable"
+        },
+        {
+            "scope": "keyword",
+            "foreground": "#DBEB63"
+        },
+        {
+            "scope": "keyword.operator",
+            "foreground": "#DEEB78"
+        },
+        {
+            "scope": "variable.other.dollar.only.js",
+            "foreground": "#DBEB63"
+        },
+        {
+            "scope": "storage",
+            "foreground": "#5D8416"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "#9BB81A",
+            "font_style": "italic"
+        },
+        {
+            "scope": "entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)",
+            "foreground": "#B3B75F"
+        },
+        {
+            "scope": "entity.name.class",
+            "foreground": "#B3B75F",
+            "font_style": "underline"
+        },
+        {
+            "scope": "entity.other.inherited-class",
+            "foreground": "#B3B75F",
+            "font_style": "italic underline"
+        },
+        {
+            "scope": "entity.name.function",
+            "foreground": "#92AD45"
+        },
+        {
+            "scope": "variable.parameter",
+            "foreground": "#8BAD5A",
+            "font_style": "italic"
+        },
+        {
+            "scope": "variable.language",
+            "foreground": "#63AD48",
+            "font_style": "italic"
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "#DBEB63"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "#9BB81A"
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "#82AE45"
+        },
+        {
+            "scope": "support.function",
+            "foreground": "#82AE45"
+        },
+        {
+            "scope": "support.constant",
+            "foreground": "#82AE45"
+        },
+        {
+            "scope": "support.type, support.class",
+            "foreground": "#82AE45",
+            "font_style": "italic"
+        },
+        {
+            "scope": "support.other.variable"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "#F8F8F0",
+            "background": "#927C18"
+        },
+        {
+            "scope": "invalid.deprecated",
+            "foreground": "#F8F8F0",
+            "background": "#E07E5A"
+        },
+        {
+            "scope": "meta.structure.dictionary.json string.quoted.double.json",
+            "foreground": "#8D9018"
+        },
+        {
+            "scope": "meta.diff, meta.diff.header",
+            "foreground": "#3F5215"
+        },
+        {
+            "scope": "meta.diff.header.from-file",
+            "foreground": "#E6982500",
+            "background": "#E6982560"
+        },
+        {
+            "scope": "meta.diff.header.to-file",
+            "foreground": "#E69825",
+            "background": "#E6982540"
+        },
+        {
+            "scope": "markup.deleted",
+            "foreground": "#E07E5A",
+            "background": "#3D190C80"
+        },
+        {
+            "scope": "markup.inserted",
+            "foreground": "#83CC52",
+            "background": "#242E0980"
+        },
+        {
+            "scope": "markup.changed",
+            "foreground": "#E69825",
+            "background": "#E6982520"
+        },
+        {
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "#3F5215"
+        },
+        {
+            "scope": "entity.name.filename",
+            "foreground": "#FBC56D"
+        },
+        {
+            "scope": "message.error",
+            "foreground": "#F84A33"
+        }
+    ]
+}

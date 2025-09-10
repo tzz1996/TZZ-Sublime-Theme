@@ -22,22 +22,22 @@
         "selection": "#0D850130",
         "selection_border": "#0D8501",
         // 红色
-        "selection_red": "FF435B40",
+        "selection_red": "#FF435B40",
         "selection_border_red": "#FF435B",
         // 粉色
-        "selection_pink": "DB709330",
+        "selection_pink": "#DB709330",
         "selection_border_pink": "#DB7093",
         // 标准海洋蓝
-        "selection_blue1": "00699430",
+        "selection_blue1": "#00699430",
         "selection_border_blue1": "#006994",
         // 浅海洋蓝
-        "selection_blue1": "00AFF030",
+        "selection_blue2": "#00AFF030",
         "selection_border_blue2": "#00AFF0",
         // 深海洋蓝
-        "selection_blue1": "002F6C30",
+        "selection_blue3": "#002F6C30",
         "selection_border_blue3": "#002F6C",
         // 中等海洋蓝
-        "selection_blue1": "008B8B30",
+        "selection_blue4": "#008B8B30",
         "selection_border_blue4": "#008B8B",
         // 块状光标高亮
         "block_caret": "#FFD580",
@@ -115,8 +115,10 @@
         "gutter_foreground": "var(gutter_fg)",
         "gutter_foreground_highlight": "var(gutter_fg_highlight)",
         "block_caret": "var(block_caret)",
-        "selection": "var(selection)",
-        "selection_border": "var(selection_border)"
+        "selection": "var(selection_pink)",
+        "selection_border": "var(selection_border_pink)",
+        "selection_corner_radius": "cut",
+        "selection_corner_style": "cut"
     },
 
     "rules": [
